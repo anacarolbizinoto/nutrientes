@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+        display: flex;
+        background: black;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+}
+
+
+.nut{
+    width: calc(20% - 10px);
+    height: 10%;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: ;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: whitesmoke;
+    display: flex; 
+    flex-wrap: wrap;
+    border-radius: 4rem;
+    padding: 8rem 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 4px dotted rgb(112, 192, 185);
+}
+
