@@ -13,7 +13,7 @@ body {
 }
 
 
-.nut{
+#card {
     width: calc(20% - 10px);
     height: 10%;
     margin: 20px;
@@ -21,7 +21,7 @@ body {
     font-size: ;
     text-transform: uppercase;
     font-weight: bolder;
-    color: whitesmoke;
+    color: antiquewhite;
     display: flex; 
     flex-wrap: wrap;
     border-radius: 4rem;
