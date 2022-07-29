@@ -172,13 +172,131 @@
                 }
             </script>
         <div id="card" class="vitamina-D">Vitamina D</div>
-        <div id="card" class="vitamina E">Vitamina E</div>
-        <div id="card" class="vitamina K">Vitamina K</div>
-        <div id="card" class="calcio">Cálcio</div>
-        <div id="card" class="ferro">Ferro</div>
-        <div id="card" class="zinco">Zinco</div>
-        <div id="card" class="potassio">Potássio</div>
+            <script>
+                var vitd = document.querySelector(".vitamina-D"); 
+                vitd.addEventListener('mouseenter', entrar);
+                vitd.addEventListener('mouseout', sair);
 
-    <script src="script.js"></script>
+                function entrar() {
+                vitd.innerText = "COGUMELOS; GEMA DE OVO; FÍGADO; ATUM; QUEIJO;";
+                vitd.style.background = 'antiquewhite';
+                vitd.style.color = 'black';
+                }
+
+                function sair() {
+                vitd.innerText = "VITAMINA D";
+                vitd.style.background = 'black';
+                vitd.style.color ='antiquewhite';
+                }
+            </script>
+        <div id="card" class="vitamina-E">Vitamina E</div>
+            <script>
+                var vite = document.querySelector(".vitamina-E"); 
+                    vite.addEventListener('mouseenter', entrar);
+                    vite.addEventListener('mouseout', sair);
+
+                    function entrar() {
+                    vite.innerText = "ÓLEO DE GIRASSOL; ÓLEO DE MILHO; ÓLEO DE CANOLA; AZEITE; AVELÃ; SEMENTE DE GIRASSOL;";
+                    vite.style.background = 'antiquewhite';
+                    vite.style.color = 'black';
+                    }
+
+                    function sair() {
+                    vite.innerText = "VITAMINA D";
+                    vite.style.background = 'black';
+                    vite.style.color ='antiquewhite';
+                    }
+            </script>
+        <div id="card" class="vitamina-K">Vitamina K</div>
+            <script>
+                var vitK = document.querySelector(".vitamina-K"); 
+                    vitK.addEventListener('mouseenter', entrar);
+                    vitK.addEventListener('mouseout', sair);
+
+                    function entrar() {
+                    vitK.innerText = "COUVE; COUVE-FLOR; BRÓCOLIS; ESPINAFRE; ALFACE;";
+                    vitK.style.background = 'antiquewhite';
+                    vitK.style.color = 'black';
+                    }
+
+                    function sair() {
+                    vitK.innerText = "VITAMINA K";
+                    vitK.style.background = 'black';
+                    vitK.style.color ='antiquewhite';
+                    }
+            </script>
+        <div id="card" class="calcio">Cálcio</div>
+            <script>
+                var calcio = document.querySelector(".calcio"); 
+                    calcio.addEventListener('mouseenter', entrar);
+                    calcio.addEventListener('mouseout', sair);
+
+                    function entrar() {
+                    calcio.innerText = "LEITE EM PÓ; QUEIJO; SARDINHA; AMÊNDOA; SOJA; LINHAÇA;";
+                    calcio.style.background = 'antiquewhite';
+                    calcio.style.color = 'black';
+                    }
+
+                    function sair() {
+                    calcio.innerText = "CÁLCIO";
+                    calcio.style.background = 'black';
+                    calcio.style.color ='antiquewhite';
+                    }
+            </script>
+        <div id="card" class="ferro">Ferro</div>
+            <script>
+                var ferro = document.querySelector(".ferro"); 
+                    ferro.addEventListener('mouseenter', entrar);
+                    ferro.addEventListener('mouseout', sair);
+
+                    function entrar() {
+                    ferro.innerText = "FÍGADO; GEMA DE OVO; CARNE BOVINA; TOFU; SEMENTE DE ABÓBORA; PISTACHIO;";
+                    ferro.style.background = 'antiquewhite';
+                    ferro.style.color = 'black';
+                    }
+
+                    function sair() {
+                    ferro.innerText = "FERRO";
+                    ferro.style.background = 'black';
+                    ferro.style.color ='antiquewhite';
+                    }
+            </script>
+        <div id="card" class="fosforo">Fósforo</div>
+            <script>
+                var fosf = document.querySelector(".fosforo"); 
+                    fosf.addEventListener('mouseenter', entrar);
+                    fosf.addEventListener('mouseout', sair);
+
+                    function entrar() {
+                    fosf.innerText = "SEMENTE DE ABÓBORA; AMÊNDOA; CASTANHA DO PARÁ; SARDINHA; SEMENTE DE GIRASSOL; AMENDOIM; SALMÃO;";
+                    fosf.style.background = 'antiquewhite';
+                    fosf.style.color = 'black';
+                    }
+
+                    function sair() {
+                    fosf.innerText = "FÓSFORO";
+                    fosf.style.background = 'black';
+                    fosf.style.color ='antiquewhite';
+                    }
+            </script>
+        <div id="card" class="potassio">Potássio</div>
+            <script>
+                var pot = document.querySelector(".potassio"); 
+                    pot.addEventListener('mouseenter', entrar);
+                    pot.addEventListener('mouseout', sair);
+
+                    function entrar() {
+                    pot.innerText = "BANANA; BATATA; EXTRATO DE TOMATE; CASTANHA DO PARÁ; CASTANHA DE CAJU; ABACATE; FRUTOS DO MAR;";
+                    pot.style.background = 'antiquewhite';
+                    pot.style.color = 'black';
+                    }
+
+                    function sair() {
+                    pot.innerText = "POTÁSSIO";
+                    pot.style.background = 'black';
+                    pot.style.color ='antiquewhite';
+                    }
+            </script>
+
 </body>
 </html>
