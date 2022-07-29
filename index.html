@@ -10,14 +10,167 @@
 <body>
     <div class="nutrientes-todos"></div>
         <div id="card" class="carboidratos">Carboidratos</div>
+            <script>
+                var carboidrato = document.querySelector(".carboidratos"); 
+                carboidrato.addEventListener('mouseenter', entrar);
+                carboidrato.addEventListener('mouseout', sair);
+
+                function entrar() {
+                carboidrato.innerText = "ARROZ; AVEIA; BATATA, MACARRÃO; MANDIOCA;";
+                carboidrato.style.background = 'antiquewhite';
+                carboidrato.style.color = 'black';
+                }
+
+                function sair() {
+                carboidrato.innerText = "CARBOIDRATOS";
+                carboidrato.style.background = 'black';
+                carboidrato.style.color ='antiquewhite';
+                }
+            </script>
         <div id="card" class="proteina-animal">Proteína Animal</div>
+            <script>
+                var ptnAnimal = document.querySelector(".proteina-animal"); 
+                ptnAnimal.addEventListener('mouseenter', entrar);
+                ptnAnimal.addEventListener('mouseout', sair);
+
+                function entrar() {
+                ptnAnimal.innerText = "QUEIJOS; LEITE; IOGURTE; CARNES; PEIXES;";
+                ptnAnimal.style.background = 'antiquewhite';
+                ptnAnimal.style.color = 'black';
+                }
+
+                function sair() {
+                ptnAnimal.innerText = "PROTEÍNA ANIMAL";
+                ptnAnimal.style.background = 'black';
+                ptnAnimal.style.color ='antiquewhite';
+                }
+            </script>
         <div id="card" class="proteina-vegetal">Proteína Vegetal</div>
+            <script>
+                var ptnVegetal = document.querySelector(".proteina-vegetal"); 
+                ptnVegetal.addEventListener('mouseenter', entrar);
+                ptnVegetal.addEventListener('mouseout', sair);
+
+                function entrar() {
+                ptnVegetal.innerText = "FEIJÃO; LENTILHA; GRÃO DE BICO; ERVILHA; SOJA;";
+                ptnVegetal.style.background = 'antiquewhite';
+                ptnVegetal.style.color = 'black';
+                }
+
+                function sair() {
+                ptnVegetal.innerText = "PROTEÍNA VEGETAL";
+                ptnVegetal.style.background = 'black';
+                ptnVegetal.style.color ='antiquewhite';
+                }
+            </script>
         <div id="card" class="gordura-saturada">Gordura Saturada</div>
+            <script>
+                    var gdsat = document.querySelector(".gordura-saturada"); 
+                    gdsat.addEventListener('mouseenter', entrar);
+                    gdsat.addEventListener('mouseout', sair);
+
+                    function entrar() {
+                    gdsat.innerText = "MANTEIGA; CREME DE LEITE; PELE DE AVES; BACON; CARNE VERMELHA;";
+                    gdsat.style.background = 'antiquewhite';
+                    gdsat.style.color = 'black';
+                    }
+
+                    function sair() {
+                    gdsat.innerText = "GORDURA SATURADA";
+                    gdsat.style.background = 'black';
+                    gdsat.style.color ='antiquewhite';
+                    }
+            </script>
         <div id="card" class="omega-3">Ômega-3</div>
+            <script>
+                var omega = document.querySelector(".omega-3"); 
+                omega.addEventListener('mouseenter', entrar);
+                omega.addEventListener('mouseout', sair);
+
+                function entrar() {
+                omega.innerText = "SALMÃO; ATUM; CASTANHAS; ÓLEO DE CANOLA; LINHAÇA;";
+                omega.style.background = 'antiquewhite';
+                omega.style.color = 'black';
+                }
+
+                function sair() {
+                omega.innerText = "ÔMEGA 3";
+                omega.style.background = 'black';
+                omega.style.color ='antiquewhite';
+                }
+            </script>
         <div id="card" class="fibras">Fibras</div>
+            <script>
+                var fibra = document.querySelector(".fibras"); 
+                fibra.addEventListener('mouseenter', entrar);
+                fibra.addEventListener('mouseout', sair);
+
+                function entrar() {
+                fibra.innerText = "FARINHAS INTEGRAIS; FRUTAS; LEGUMES; FEIJÕES; CHIA;";
+                fibra.style.background = 'antiquewhite';
+                fibra.style.color = 'black';
+                }
+
+                function sair() {
+                fibra.innerText = "FIBRAS";
+                fibra.style.background = 'black';
+                fibra.style.color ='antiquewhite';
+                }
+            </script>
         <div id="card" class="vitamina-A">Vitamina A</div>
-        <div id="card" class="vitamina B12">Vitamina B12</div>
+            <script>
+                var vitA = document.querySelector(".vitamina-A"); 
+                vitA.addEventListener('mouseenter', entrar);
+                vitA.addEventListener('mouseout', sair);
+
+                function entrar() {
+                vitA.innerText = "CENOURA; MAMÃO; MANGA; BRÓCOLIS; COUVE; ESPINAFRE;";
+                vitA.style.background = 'antiquewhite';
+                vitA.style.color = 'black';
+                }
+
+                function sair() {
+                vitA.innerText = "VITAMINA A";
+                vitA.style.background = 'black';
+                vitA.style.color ='antiquewhite';
+                }
+            </script>
+        <div id="card" class="vitamina-B12">Vitamina B12</div>
+            <script>
+                var vitb12 = document.querySelector(".vitamina-B12"); 
+                vitb12.addEventListener('mouseenter', entrar);
+                vitb12.addEventListener('mouseout', sair);
+
+                function entrar() {
+                vitb12.innerText = "FÍGADO DE BOI; ATUM; SARDINHA; SALMÃO; CARNES; OVO; LEITE;";
+                vitb12.style.background = 'antiquewhite';
+                vitb12.style.color = 'black';
+                }
+
+                function sair() {
+                vitb12.innerText = "VITAMINA B12";
+                vitb12.style.background = 'black';
+                vitb12.style.color ='antiquewhite';
+                }
+            </script>
         <div id="card" class="vitamina-C">Vitamina C</div>
+            <script>
+                var vitc = document.querySelector(".vitamina-C"); 
+                vitc.addEventListener('mouseenter', entrar);
+                vitc.addEventListener('mouseout', sair);
+
+                function entrar() {
+                vitc.innerText = "ACEROLA; LARANJA; CAJU; PIMENTÃO AMARELO; COUVE;";
+                vitc.style.background = 'antiquewhite';
+                vitc.style.color = 'black';
+                }
+
+                function sair() {
+                vitc.innerText = "VITAMINA C";
+                vitc.style.background = 'black';
+                vitc.style.color ='antiquewhite';
+                }
+            </script>
         <div id="card" class="vitamina-D">Vitamina D</div>
         <div id="card" class="vitamina E">Vitamina E</div>
         <div id="card" class="vitamina K">Vitamina K</div>
